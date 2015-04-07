@@ -1,0 +1,505 @@
+Scan
+
+{
+    "name": "Robosmart",
+    "id": "78:C5:E5:9A:15:AA",
+    "advertising": {},
+    "rssi": -65
+}
+
+Connected
+
+{
+    "name": "Robosmart",
+    "id": "78:C5:E5:9A:15:AA",
+    "advertising": {},
+    "rssi": -65,
+    "services": [
+        "1800",
+        "1801",
+        "180a",
+        "f000ffc0-0451-4000-b000-000000000000",
+        "ff10",
+        "ff20",
+        "ff40"
+    ],
+    "characteristics": [
+        {
+            "service": "1800",
+            "characteristic": "2a00",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "1800",
+            "characteristic": "2a01",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "1800",
+            "characteristic": "2a02",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "1800",
+            "characteristic": "2a03",
+            "properties": [
+                "Read",
+                "Write"
+            ]
+        },
+        {
+            "service": "1800",
+            "characteristic": "2a04",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "1801",
+            "characteristic": "2a05",
+            "properties": [
+                "Indicate"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2902"
+                }
+            ]
+        },
+        {
+            "service": "180a",
+            "characteristic": "2a23",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "180a",
+            "characteristic": "2a24",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "180a",
+            "characteristic": "2a25",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "180a",
+            "characteristic": "2a26",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "180a",
+            "characteristic": "2a27",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "180a",
+            "characteristic": "2a28",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "180a",
+            "characteristic": "2a29",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "180a",
+            "characteristic": "2a2a",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "180a",
+            "characteristic": "2a50",
+            "properties": [
+                "Read"
+            ]
+        },
+        {
+            "service": "f000ffc0-0451-4000-b000-000000000000",
+            "characteristic": "f000ffc1-0451-4000-b000-000000000000",
+            "properties": [
+                "WriteWithoutResponse",
+                "Write",
+                "Notify"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2902"
+                },
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "f000ffc0-0451-4000-b000-000000000000",
+            "characteristic": "f000ffc2-0451-4000-b000-000000000000",
+            "properties": [
+                "WriteWithoutResponse",
+                "Write",
+                "Notify"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2902"
+                },
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff11",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff12",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff16",
+            "properties": [
+                "Read"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff17",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff18",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff19",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff1b",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff1d",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff1c",
+            "properties": [
+                "Read",
+                "Write",
+                "Notify"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff1a",
+            "properties": [
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff21",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff26",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff27",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff28",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff22",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff2a",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff20",
+            "characteristic": "ff31",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff20",
+            "characteristic": "ff33",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff20",
+            "characteristic": "ff34",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff20",
+            "characteristic": "ff35",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff20",
+            "characteristic": "ff29",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        }
+    ]
+} 
+.
+
+{
+    "name": "Robosmart",
+    "id": "78:C5:E5:9A:15:AA",
+    "advertising": {},
+    "rssi": -65,
+    "services": [
+        "1800",
+        "1801",
+        "180a",
+        "f000ffc0-0451-4000-b000-000000000000",
+        "ff10",
+        "ff20",
+        "ff40"
+    ],
+    "characteristics": [
+        {
+            "service": "ff10",
+            "characteristic": "ff11",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff12",
+            "properties": [
+                "Read",
+                "Write"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        },
+        {
+            "service": "ff10",
+            "characteristic": "ff16",
+            "properties": [
+                "Read"
+            ],
+            "descriptors": [
+                {
+                    "uuid": "2901"
+                }
+            ]
+        }
+    ]
+} 
+
+
+
